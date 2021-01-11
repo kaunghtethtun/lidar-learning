@@ -74,7 +74,7 @@ void initCamera(CameraAngle setAngle, pcl::visualization::PCLVisualizer::Ptr& vi
         case FPS : viewer->setCameraPosition(-10, 0, 0, 0, 0, 1);
     }
 
-    if(setAngle!=FPS)
+    if(setAngle!=Side)
         viewer->addCoordinateSystem (1.0);
 }
 
